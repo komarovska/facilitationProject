@@ -10,6 +10,9 @@ module.exports = {
   */
   head: {
     title: 'facilication',
+    htmlAttrs: {
+      lang: 'ru',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -28,14 +31,14 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
- /*
-  modules: [
-    ['@nuxtjs/google-analytics']
-  ],
-  'google-analytics': {
-    id: 'UA-119018991-1'
-  },
-*/
+  /*
+   modules: [
+     ['@nuxtjs/google-analytics']
+   ],
+   'google-analytics': {
+     id: 'UA-119018991-1'
+   },
+ */
   loading: {
     color: '#77b6ff',
     height: '3px'
