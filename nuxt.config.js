@@ -28,17 +28,12 @@ module.exports = {
       { rel: 'preload', href: '/img/background2.webp', as: 'image' }
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
-  /*
-   modules: [
-     ['@nuxtjs/google-analytics']
-   ],
-   'google-analytics': {
-     id: 'UA-119018991-1'
-   },
- */
+  modules: [
+    ['@nuxtjs/google-analytics']
+  ],
+  'google-analytics': {
+    id: 'UA-118992175-1'
+  },
   loading: {
     color: '#77b6ff',
     height: '3px'
