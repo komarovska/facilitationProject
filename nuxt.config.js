@@ -18,14 +18,14 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'facilitation' },
       { property: "og:title", content: "Тренинг по фасилитации" },
-      { property: "og:image", content: "/images/groupbig.png" }
+      { property: "og:image", content: "/images/groupbig.webp" }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=PT+Sans&subset=latin-ext' },
       { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Lobster&subset=latin-ext' },
       { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Noto+Sans' },
-      { rel: 'preload', href: '/img/background2.png', as: 'image' }
+      { rel: 'preload', href: '/img/background2.webp', as: 'image' }
     ]
   },
   /*

@@ -65,7 +65,7 @@
 
             <div class='row team__members__pics'>
                 <div class='col-offset-xlg-3 col-xlg-4 col-offset-lg-3 col-lg-4 col-offset-sm-1 col-sm-6 col-offset-xxs-2 col-xxs-12'>
-                    <img src="img/image5.png" alt="Вероника Комаровская">
+                    <img src="img/image5.webp" alt="Вероника Комаровская">
                     <div class='team__members__pics_background'></div>
                     <div class='team__members__pics_inner'>
 
@@ -111,7 +111,7 @@
                 </div>
 
                 <div class='col-offset-xlg-2 col-xlg-4 col-offset-lg-2 col-lg-4 col-offset-sm-2 col-sm-6 col-offset-xxs-2 col-xxs-12'>
-                    <img src="img/svets.png" alt="Светлана Тикунова">
+                    <img src="img/svets.webp" alt="Светлана Тикунова">
                     <div class='team__members__pics_background'></div>
                     <div class='team__members__pics_inner'>
 
@@ -168,7 +168,7 @@
             <div class='row services'>
                 <div class='services__item col-offset-xlg-2 col-xlg-5 col-offset-lg-2 col-lg-5 col-offset-sm-1 col-sm-7 col-offset-xxs-1 col-xxs-14'>
                     <div class='services__item__title'>Фасилитация</div>
-                    <img src='img/groupbig.png' alt="Фасилитация">
+                    <img src='img/groupbig.webp' alt="Фасилитация">
                     <div class='services__item__description'>Фасилитация - это эффективный метод для группового поиска и принятия решений с высоким индексом ответственности
                         и вовлеченности каждого участника в процесс формирования идей и их реализации.
                     </div>
@@ -224,7 +224,7 @@
                 </div>
                 <div class='services__item col-offset-xlg-2 col-xlg-5 col-offset-lg-2 col-lg-5 col-offset-sm-1 col-sm-7 col-offset-xxs-1 col-xxs-14'>
                     <div class='services__item__title'>Коучинг</div>
-                    <img src='img/graph.png' alt="Коучинг">
+                    <img src='img/graph.webp' alt="Коучинг">
                     <div class='services__item__description'>Kоуч – человек, который обеспечит поддержку, понимание, уверенность в себе, прилив сил и желания действовать
                         на пути реализации задуманного, с кем успех точно придет и будет ощутимым.</div>
                     <div onclick="revealModal2()" class='services__item__btn'>Узнать больше</div>
@@ -263,7 +263,7 @@
                 </div>
                 <div class='services__item col-offset-xlg-2 col-xlg-5 col-offset-lg-2 col-lg-5 col-offset-sm-1 col-sm-7 col-offset-xxs-1 col-xxs-14'>
                     <div class='services__item__title'>Внешний мониторинг</div>
-                    <img src='img/tick.png' alt="Внешний мониторинг">
+                    <img src='img/tick.webp' alt="Внешний мониторинг">
                     <div class='services__item__description'>Если вы все делаете правильно, но результат перестал приносить удовлетворение; если нужен свежий взгляд
                         на происходящее со стороны; если нужен внешний толчок для выхода из зоны комфорта – пришло время
                         для внешнего мониторинга процессов.
@@ -296,7 +296,7 @@
                 </div>
                 <div class='services__item col-offset-xlg-2 col-xlg-5 col-offset-lg-2 col-lg-5 col-offset-sm-1 col-sm-7 col-offset-xxs-1 col-xxs-14'>
                     <div class='services__item__title'>Проведение стратегических сессий</div>
-                    <img src='img/board.png' alt="Проведение стратегических сессий">
+                    <img src='img/board.webp' alt="Проведение стратегических сессий">
                     <div class='services__item__description'>Стратегическая сессия - это формат групповой работы, в рамках которого команда работает над стратегией
                         развития: анализирует текущую ситуацию, прорабатывает разнообразные подходы и моделирует возможное
                         развитие стратегий в будущем.

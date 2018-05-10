@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "@nuxtjs/google-analytics": "^2.0.2",
-    "nuxt": "^1.0.0"
+    "nuxt": "^1.0.0",
+    "webp-converter-cli": "0.0.5"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",

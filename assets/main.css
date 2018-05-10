@@ -53,7 +53,7 @@ a {
 .container-header {
   height: 70vh;
   background-repeat: no-repeat;
-  background-image: url(/img/background2.png);
+  background-image: url(/img/background2.webp);
 }
 
 @media all and (max-width: 1500px) and (max-height: 570px) {
