@@ -1,4 +1,5 @@
 module.exports = {
+  mode: 'spa',
   css: [
     '~assets/reset.css',
     '~assets/grid.css',
@@ -12,7 +13,9 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'facilitation' }
+      { hid: 'description', name: 'description', content: 'facilitation' },
+      { property: "og:title", content: "Тренинг по фасилитации" },
+      { property: "og:image", content: "/images/groupbig.png" }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
@@ -25,7 +28,28 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+ /*
+  modules: [
+    ['@nuxtjs/google-analytics']
+  ],
+  'google-analytics': {
+    id: 'UA-119018991-1'
+  },
+*/
+  loading: {
+    color: '#77b6ff',
+    height: '3px'
+  },
+  loadingIndicator: {
+    name: 'circle',
+    color: '#3B8070',
+    background: 'white'
+  },
+  generate: {
+    minify: {
+      removeComments: true
+    }
+  },
   /*
   ** Build configuration
   */
