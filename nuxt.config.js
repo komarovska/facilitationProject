@@ -5,9 +5,6 @@ module.exports = {
     '~assets/grid.css',
     '~assets/main.css'
   ],
-  /*
-  ** Headers of the page
-  */
   head: {
     title: 'facilication',
     htmlAttrs: {
@@ -17,15 +14,15 @@ module.exports = {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'facilitation' },
-      { property: "og:title", content: "Тренинг по фасилитации" },
-      { property: "og:image", content: "/images/groupbig.webp" }
+      { property: "og:title", content: "Тренинги по фасилитации" },
+      { property: "og:image", content: "/images/groupbig.png" }
     ],
     link: [
       { rel: 'icon', type: 'image/png', href: '/favicon.png' },
       { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=PT+Sans&subset=latin-ext' },
       { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Lobster&subset=latin-ext' },
       { rel: 'stylesheet', href: '//fonts.googleapis.com/css?family=Noto+Sans' },
-      { rel: 'preload', href: '/img/background2.webp', as: 'image' }
+      { rel: 'preload', href: '/images/background.png', as: 'image' }
     ]
   },
   modules: [
@@ -40,7 +37,7 @@ module.exports = {
   },
   loadingIndicator: {
     name: 'circle',
-    color: '#3B8070',
+    color: '#330303',
     background: 'white'
   },
   generate: {
@@ -48,13 +45,7 @@ module.exports = {
       removeComments: true
     }
   },
-  /*
-  ** Build configuration
-  */
   build: {
-    /*
-    ** Run ESLint on save
-    */
     extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
