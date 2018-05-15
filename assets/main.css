@@ -90,7 +90,7 @@ a {
 
 @media all and (max-width: 1500px) and (max-height: 700px) and (min-height: 571px) {
   .nav-menu {
-    height: 20%;
+    height: 15%;
   }
 }
 
@@ -205,7 +205,7 @@ a {
   margin: auto;
   font-size: 4rem;
   font-family: 'PT Sans', sans-serif;
-  padding-top: 25px;
+  padding-top: 35px;
   border: 2px solid #7b6c63;
 }
 
@@ -354,6 +354,12 @@ a {
   height: 30%;
 }
 
+@media all and (min-width: 1501px) {
+  .bridge {
+    height: 25%;
+  }
+}
+
 @media all and (max-width: 1500px) and (max-height: 570px) {
   .bridge {
     height: 25%;
@@ -422,6 +428,12 @@ a {
 .team__members__pics {
   height: 60%;
   overflow: hidden;
+}
+
+@media all and (min-width: 1501px) {
+  .team__members__pics {
+    height: 70%;
+  }
 }
 
 @media all and (max-width: 992px) {
@@ -1105,7 +1117,7 @@ a {
   font-size: 3rem;
   color: #272420;
   text-align: center;
-  line-height: 2;
+  line-height: 1.4;
   padding-top: 30px;
   text-align: center;
 }
