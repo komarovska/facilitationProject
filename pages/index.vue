@@ -19,7 +19,7 @@
         </div>
     </div>
 </div>
-            <div class='row opening-page'>
+            <div id='open-page' class='row opening-page'>
                 <div class='col-offset-xlg-2 col-xlg-6 col-offset-lg-2 col-lg-6 col-offset-md-1 col-md-9'>
                     <p class="opening-page__text_big">Не обязательно быть
                         <span>лучше всех</span>, достаточно быть лучше, чем ты был вчера.</p>
