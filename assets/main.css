@@ -128,6 +128,9 @@ a {
   font-size: 3rem;
   font-family: 'PT Sans', sans-serif;
 }
+.nav-menu__item > a:hover {
+  color: #7b6c63;;
+}
 
 @media all and (max-width: 580px) {
   .nav-menu__item {
@@ -140,6 +143,9 @@ a {
     background-color: #303030;
     z-index: 6;
     padding-left: 50px;
+  }
+  .nav-menu__item:hover {
+    background-color: #330303;
   }
 }
 
