@@ -13,44 +13,14 @@ var linesReset = function() {
 }
 
 
-var menuDrop = function() {
-        document.getElementById("hidden-menu").style.display = 'block';
-        document.getElementById("item1").style.display = 'block';
-        document.getElementById("item2").style.display = 'block';
-        document.getElementById("item3").style.display = 'block';
-        document.getElementById("item4").style.display = 'block';
-        document.getElementById("small-shown").style.display = 'none';
-        document.getElementById("small-hidden").style.display = 'block';
+function menuDrop() {
+    var x = document.getElementById("menu__items__container");
+    if (x.className === "topnav") {
+        x.className += " visible";
+    } else {
+        x.className = "topnav";
     }
-    
-    
-var menuHide = function() {
-   
-        document.getElementById("item1").style.display = 'none';
-        document.getElementById("item2").style.display = 'none';
-        document.getElementById("item3").style.display = 'none';
-        document.getElementById("item4").style.display = 'none';
-        document.getElementById("hidden-menu").style.display = 'none';
-        document.getElementById("small-shown").style.display = 'block';
-        document.getElementById("small-hidden").style.display = 'none';
-       
 }
-
-
-/*var hideEverything = function() {
-    if (x.matches) { // If media query matches
-            document.getElementById("small-shown").style.display = 'block';
-            document.getElementById("small-hidden").style.display = 'none';
-        } else {
-            document.getElementById("small-shown").style.display = 'none';
-            document.getElementById("small-hidden").style.display = 'none';
- }
-}
-var x = window.matchMedia("(max-width: 580px)")
-hideEverything(x) // Call listener function at run time
-x.addListener(hideEverything)*/
-
-
 
 var revealInfo = function() {
     document.getElementById('overlay').style.transform = 'none';
