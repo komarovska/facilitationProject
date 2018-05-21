@@ -2,46 +2,23 @@
     <div>
         <div class='container container-header'>
             <div class='row nav-menu'>
-                <div class='nav-menu__items-big col-offset-lg-8 col-offset-xlg-8 col-offset-md-8 col-offset-sm-7 col-lg-6 col-xlg-6 col-md-7 col-sm-8'>
-                    <div>
-                        <a href='#about'>О нас</a>
-                    </div>
-                    <div>
-                        <a href="#services">Услуги</a>
-                    </div>
-                    <div>
-                        <a href='#reviews'>Отзывы</a>
-                    </div>
-                    <div>
-                        <a href='#contacts'>Контакты</a>
-                    </div>
-                </div>
-                <div id='small-shown' onclick='menuDrop(); linesRearrange()' onmouseover="linesRearrange()" onmouseout="linesReset()" class='nav-menu__items-small col-offset-xs-13 col-offset-xxs-13 col-offset-xxxs-12 col-xs-1'>
-                    <div id="line1" class='nav-menu__items-small__line'></div>
-                    <div class='nav-menu__items-small__line'></div>
-                    <div id='line3' class='nav-menu__items-small__line'></div>
-                </div>
-                <div onclick='linesReset(); menuHide()' onmouseover="linesRearrange()" onmouseout="linesReset()" id='small-hidden' class='nav-menu__items-small col-offset-xs-13 col-offset-xxs-13 col-offset-xxxs-12 col-xs-1'>
-                    <div id='line4' class='nav-menu__items-small__line'></div>
-                    <div class='nav-menu__items-small__line'></div>
-                    <div id='line5' class='nav-menu__items-small__line'></div>
-                </div>
-
+    
+    <div class='nav-menu__items-big col-offset-lg-8 col-offset-xlg-8 col-offset-md-8 col-offset-sm-7 col-lg-6 col-xlg-6 col-md-7 col-sm-8 col-xxs-14 col-offset-xxs-0'>
+        <div class='nav-menu__placeholder'>
+            <div id='small-shown' onclick='menuDrop(); linesRearrange()'  onmouseover="linesRearrange()" onmouseout="linesReset()">
+            <div id="line1" class='nav-line'></div>
+            <div class='nav-line'></div>
+            <div id='line3' class='nav-line'></div>
             </div>
-            <div id='hidden-menu' class='row nav-menu_small'>
-                <div id='item1' class='nav-menu_small__item'>
-                    <a href='#about'>О нас</a>
-                </div>
-                <div id='item2' class='nav-menu_small__item'>
-                    <a href="#services">Услуги</a>
-                </div>
-                <div id='item3' class='nav-menu_small__item'>
-                    <a href='#reviews'>Отзывы</a>
-                </div>
-                <div id='item4' class='nav-menu_small__item'>
-                    <a href='#contacts'>Контакты</a>
-                </div>
-            </div>
+        </div>
+        <div class='topnav' id='menu__items__container'>
+        <div class='nav-menu__item'><a href='#section1'>О нас</a></div>
+        <div class='nav-menu__item'><a href="#section2">Услуги</a></div>
+        <div class='nav-menu__item'><a href='#section3'>Отзывы</a></div>
+        <div class='nav-menu__item'><a href='#section4'>Контакты</a></div>
+        </div>
+    </div>
+</div>
             <div class='row opening-page'>
                 <div class='col-offset-xlg-2 col-xlg-6 col-offset-lg-2 col-lg-6 col-offset-md-1 col-md-9'>
                     <p class="opening-page__text_big">Не обязательно быть
