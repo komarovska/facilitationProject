@@ -1,15 +1,11 @@
 var linesRearrange = function() {
     document.getElementById('line1').style.animationName = 'move1';
     document.getElementById('line3').style.animationName = 'move2';
-    document.getElementById('line4').style.animationName = 'move1';
-    document.getElementById('line5').style.animationName = 'move2';
 }
 
 var linesReset = function() {
     document.getElementById('line1').style.animationName = '';
     document.getElementById('line3').style.animationName = '';
-    document.getElementById('line4').style.animationName = '';
-    document.getElementById('line5').style.animationName = '';
 }
 
 
