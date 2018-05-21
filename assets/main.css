@@ -132,7 +132,7 @@ a {
 @media all and (max-width: 580px) {
   .nav-menu__item {
     width: 100vw;
-    line-height: calc(100vh*0.2);
+    line-height: calc(100vh*0.14);
     height: 20%;
     font-size: 4rem;
     font-family: 'PT Sans', sans-serif;
@@ -153,7 +153,7 @@ a {
 @media all and (max-width: 580px) {
   .nav-menu__placeholder {
     display: block;
-    display: inline-flex;
+    /*display: inline-flex;*/
   }
 }
 
@@ -165,6 +165,16 @@ a {
 
 .visible {
   display: block !important;
+}
+
+.invisible {
+  display: none;
+}
+
+@media all and (min-width: 581px) {
+  .invisible {
+    display: flex;
+  }
 }
 
 .nav-line {
@@ -188,6 +198,7 @@ a {
 
 #small-shown {
   float: right;
+  margin: 2% 5%;
 }
 
 .opening-page__text_big {
