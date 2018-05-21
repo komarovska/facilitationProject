@@ -12,10 +12,10 @@
             </div>
         </div>
         <div class='topnav' id='menu__items__container'>
-        <div class='nav-menu__item'><a href='#section1'>О нас</a></div>
-        <div class='nav-menu__item'><a href="#section2">Услуги</a></div>
-        <div class='nav-menu__item'><a href='#section3'>Отзывы</a></div>
-        <div class='nav-menu__item'><a href='#section4'>Контакты</a></div>
+        <div class='nav-menu__item'><a href='#about'>О нас</a></div>
+        <div class='nav-menu__item'><a href="#services">Услуги</a></div>
+        <div class='nav-menu__item'><a href='#reviews'>Отзывы</a></div>
+        <div class='nav-menu__item'><a href='#contacts'>Контакты</a></div>
         </div>
     </div>
 </div>
