@@ -11,10 +11,22 @@ var linesReset = function() {
 
 function menuDrop() {
     var x = document.getElementById("menu__items__container");
+    
     if (x.className === "topnav") {
         x.className += " visible";
     } else {
         x.className = "topnav";
+    }
+    
+}
+
+function hideOpen() {
+    var y = document.getElementById("open-page");
+    
+    if (y.className === "row opening-page") {
+        y.className += " invisible";
+    } else {
+        y.className = "row opening-page";
     }
 }
 
