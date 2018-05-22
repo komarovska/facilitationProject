@@ -1,55 +1,29 @@
 var linesRearrange = function() {
     document.getElementById('line1').style.animationName = 'move1';
     document.getElementById('line3').style.animationName = 'move2';
-    document.getElementById('line4').style.animationName = 'move1';
-    document.getElementById('line5').style.animationName = 'move2';
 }
 
 var linesReset = function() {
     document.getElementById('line1').style.animationName = '';
     document.getElementById('line3').style.animationName = '';
-    document.getElementById('line4').style.animationName = '';
-    document.getElementById('line5').style.animationName = '';
 }
 
 
-var menuDrop = function() {
-        document.getElementById("hidden-menu").style.display = 'block';
-        document.getElementById("item1").style.display = 'block';
-        document.getElementById("item2").style.display = 'block';
-        document.getElementById("item3").style.display = 'block';
-        document.getElementById("item4").style.display = 'block';
-        document.getElementById("small-shown").style.display = 'none';
-        document.getElementById("small-hidden").style.display = 'block';
+function menuDrop() {
+    var x = document.getElementById("menu__items__container");
+    var y = document.getElementById("open-page");
+    if (x.className === "topnav") {
+        x.className += " visible";
+    } else {
+        x.className = "topnav";
+    }
+    if (y.className === "row opening-page") {
+        y.className += " invisible";
+    } else {
+        y.className = "row opening-page";
     }
     
-    
-var menuHide = function() {
-   
-        document.getElementById("item1").style.display = 'none';
-        document.getElementById("item2").style.display = 'none';
-        document.getElementById("item3").style.display = 'none';
-        document.getElementById("item4").style.display = 'none';
-        document.getElementById("hidden-menu").style.display = 'none';
-        document.getElementById("small-shown").style.display = 'block';
-        document.getElementById("small-hidden").style.display = 'none';
-       
 }
-
-
-/*var hideEverything = function() {
-    if (x.matches) { // If media query matches
-            document.getElementById("small-shown").style.display = 'block';
-            document.getElementById("small-hidden").style.display = 'none';
-        } else {
-            document.getElementById("small-shown").style.display = 'none';
-            document.getElementById("small-hidden").style.display = 'none';
- }
-}
-var x = window.matchMedia("(max-width: 580px)")
-hideEverything(x) // Call listener function at run time
-x.addListener(hideEverything)*/
-
 
 
 var revealInfo = function() {

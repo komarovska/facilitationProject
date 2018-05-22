@@ -71,15 +71,11 @@ a {
   transition: color 0.3s ease-in-out;
 }
 .nav-menu {
+  z-index: 3;
   height: 15%;
   background-color: #303030;
   color: white;
   font-family: "Noto Sans", sans-serif;
-}
-
-.footer {
-  height: 50px;
-  background-color: #303030;
 }
 
 @media all and (max-width: 1500px) and (max-height: 570px) {
@@ -90,7 +86,7 @@ a {
 
 @media all and (max-width: 1500px) and (max-height: 700px) and (min-height: 571px) {
   .nav-menu {
-    height: 15%;
+    height: 20%;
   }
 }
 
@@ -108,68 +104,86 @@ a {
 
 @media all and (min-width: 336px) and (max-width: 580px) and (orientation: landscape) {
   .nav-menu {
-    /*height: 25%;*/
+    height: 25%;
   }
 }
 
-.nav-menu__title {
-  font-size: 6em;
-  padding-top: 20px;
-  font-family: 'Lobster', cursive;
-}
-
-@media all and (max-width: 1290px) {
-  .nav-menu__title {
-    padding-top: 30px;
+@media all and (max-width: 580px) {
+  .nav-menu {
+    height: 15%;
+    /*width: 100vw;
+        height: 100vh;*/
   }
 }
 
 .nav-menu__items-big {
-  display: block;
-  display: flex;
-  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-menu__item {
+  width: 24%;
+  height: 100%;
+  display: inline-flex;
+  line-height: calc(100vh*0.1);
   font-size: 3rem;
-  height: 80%;
+  font-family: 'PT Sans', sans-serif;
 }
-
-.nav-menu__items-big > div {
-  margin-top: 25px;
-}
-
-@media all and (max-width: 1290px) {
-  .nav-menu__items-big > div {
-    margin-top: 35px;
-  }
-}
-
-@media all and (max-width: 992px) {
-  .nav-menu__items-big > div {
-    margin-top: 35px;
-  }
-}
-
-@media all and (max-height: 520px) and (min-width: 581px) and (max-width: 766px) and (orientation: landscape) {
-  .nav-menu__items-big > div {
-    margin-top: 25px;
-  }
-}
-
-.nav-menu__items-big > div:hover {
-  border-bottom: 5px solid #7b6c63;
+.nav-menu__item > a:hover {
+  color: #7b6c63;;
 }
 
 @media all and (max-width: 580px) {
-  .nav-menu__items-big {
+  .nav-menu__item {
+    width: 100vw;
+    line-height: calc(100vh*0.14);
+    height: 20%;
+    font-size: 4rem;
+    font-family: 'PT Sans', sans-serif;
+    border: 2px solid #7b6c63;
+    background-color: #303030;
+    z-index: 6;
+    padding-left: 50px;
+  }
+  .nav-menu__item:hover {
+    background-color: #330303;
+  }
+}
+
+.nav-menu__placeholder {
+  width: 100vw;
+  line-height: calc(100vh*0.2);
+  height: 100%;
+  display: none;
+}
+
+@media all and (max-width: 580px) {
+  .nav-menu__placeholder {
+    display: block;
+    /*display: inline-flex;*/
+  }
+}
+
+@media all and (max-width: 580px) {
+  #menu__items__container {
     display: none;
   }
 }
 
-.nav-menu__items-small {
-  display: none;
-  padding-top: 5px;
+.visible {
+  display: block !important;
 }
 
-.nav-menu__items-small__line {
+.invisible {
+  display: none;
+}
+
+@media all and (min-width: 581px) {
+  .invisible {
+    display: flex;
+  }
+}
+
+.nav-line {
   position: relative;
   left: 0;
   width: 40px;
@@ -178,61 +192,19 @@ a {
   background-color: white;
 }
 
-.nav-menu__items-small__line:nth-child(1) {
+.nav-line:nth-child(1) {
   animation-duration: 0,01s;
   animation-fill-mode: forwards;
 }
 
-.nav-menu__items-small__line:nth-child(3) {
+.nav-line:nth-child(3) {
   animation-duration: 0,01s;
   animation-fill-mode: forwards;
 }
 
-.nav-menu_small {
-  display: none;
-  width: 100%;
-  height: 85%;
-  display: flex;
-  flex-direction: column;
-  color: white;
-}
-
-@media all and (min-width: 336px) and (max-width: 580px) and (orientation: landscape) {}.nav-menu_small__item {
-  display: none;
-  height: 25%;
-  width: 100%;
-  padding-left: 25px;
-  margin: auto;
-  font-size: 4rem;
-  font-family: 'PT Sans', sans-serif;
-  padding-top: 35px;
-  border: 2px solid #7b6c63;
-}
-
-@media all and (min-width: 336px) and (max-width: 580px) and (orientation: landscape) {
-  .nav-menu_small__item {
-    font-size: 2.5rem;
-    /*padding-top: 10px;*/
-    height: 22%;
-  }
-}
-
-.nav-menu_small > div {
-  background-color: #272420;
-}
-
-.nav-menu_small > div:hover {
-  background-color: #7b6c63;
-}
-
-#hidden-menu {
-  display: none;
-}
-
-@media all and (max-width: 580px) {
-  #small-shown {
-    display: block;
-  }
+#small-shown {
+  float: right;
+  margin: 2% 5%;
 }
 
 .opening-page__text_big {
@@ -426,7 +398,7 @@ a {
 }
 
 .team__members__pics {
-  height: 60%;
+  height: 63%;
   overflow: hidden;
 }
 
